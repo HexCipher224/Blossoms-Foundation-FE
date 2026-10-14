@@ -1,0 +1,120 @@
+.contact-page__grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.contact-info h2 {
+  color: var(--color-green-900);
+  margin-bottom: 22px;
+}
+
+.contact-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+}
+
+.contact-info li svg {
+  color: var(--color-green-700);
+  flex-shrink: 0;
+}
+
+.contact-info a:hover {
+  color: var(--color-orange-600);
+}
+
+.contact-info__note {
+  margin-top: 22px;
+  font-size: 0.82rem;
+  color: var(--color-ink-soft);
+  font-style: italic;
+  border-left: 3px solid var(--color-orange-500);
+  padding-left: 14px;
+}
+
+.contact-form-wrap {
+  padding: 32px;
+}
+
+.contact-form-wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.contact-form-wrap .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-form-wrap label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-ink-soft);
+}
+
+.contact-form-wrap input,
+.contact-form-wrap textarea {
+  padding: 13px 14px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-line);
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.contact-form-wrap input:focus,
+.contact-form-wrap textarea:focus {
+  border-color: var(--color-green-700);
+}
+
+.contact-form-wrap input[aria-invalid='true'],
+.contact-form-wrap textarea[aria-invalid='true'] {
+  border-color: #c0392b;
+}
+
+.contact-success h2 {
+  color: var(--color-green-900);
+  margin-bottom: 12px;
+}
+
+.contact-success p {
+  color: var(--color-ink-soft);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .contact-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-form__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-info__img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  margin-top: 26px;
+  box-shadow: var(--shadow-card);
+}
