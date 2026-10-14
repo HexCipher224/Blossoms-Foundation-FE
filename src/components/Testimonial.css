@@ -1,0 +1,40 @@
+.testimonial {
+  background: var(--color-green-100);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  margin: 0;
+  max-width: 640px;
+}
+
+.testimonial__icon {
+  color: var(--color-orange-500);
+}
+
+.testimonial blockquote {
+  margin: 16px 0 0;
+}
+
+.testimonial p {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--color-green-900);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.testimonial figcaption {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.testimonial__name {
+  font-weight: 600;
+  color: var(--color-green-900);
+}
+
+.testimonial__role {
+  font-size: 0.88rem;
+  color: var(--color-ink-soft);
+}
