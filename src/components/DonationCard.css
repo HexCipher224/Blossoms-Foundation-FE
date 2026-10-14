@@ -1,0 +1,98 @@
+.donation-card {
+  padding: 28px;
+}
+
+.donation-card__frequency {
+  display: flex;
+  background: var(--color-green-100);
+  border-radius: 100px;
+  padding: 5px;
+  margin-bottom: 24px;
+}
+
+.donation-card__frequency button {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 11px 16px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.94rem;
+  color: var(--color-green-900);
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+.donation-card__frequency button.is-active {
+  background: var(--color-green-700);
+  color: #fff;
+}
+
+.donation-card__amounts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.amount-pill {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--color-line);
+  border-radius: 12px;
+  padding: 14px 10px;
+  font-weight: 600;
+  color: var(--color-ink);
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.amount-pill input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.amount-pill.is-selected {
+  border-color: var(--color-green-700);
+  background: var(--color-green-100);
+  color: var(--color-green-900);
+}
+
+.amount-pill--custom {
+  grid-column: span 2;
+}
+
+.donation-card__custom {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.donation-card__custom label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-ink-soft);
+}
+
+.donation-card__custom input {
+  padding: 13px 14px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-line);
+  font-size: 1rem;
+}
+
+.donation-card__custom input:focus {
+  border-color: var(--color-green-700);
+}
+
+.donation-card__min {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+}
