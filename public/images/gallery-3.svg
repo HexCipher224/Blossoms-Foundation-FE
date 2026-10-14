@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder image: Gallery 3: community gathering">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2C8A63"/><stop offset="100%" stop-color="#FFD166"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#FFFFFF" opacity="0.12"/></pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/><rect width="800" height="600" fill="url(#dots)"/>
+  <path d="M400 470C400 470 320 420 320 350C320 310 350 288 378 300C392 306 400 322 400 322C400 322 408 306 422 300C450 288 480 310 480 350C480 420 400 470 400 470Z" fill="#FFFDF8" opacity="0.9"/>
+  <circle cx="400" cy="316" r="14" fill="#FFD166"/>
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="22" fill="#FFFDF8" text-anchor="middle" opacity="0.85">Gallery 3: community gathering</text>
+  <text x="400" y="568" font-family="Arial, sans-serif" font-size="14" fill="#FFFDF8" text-anchor="middle" opacity="0.65">Placeholder - replace with a real, consented photograph</text>
+</svg>
