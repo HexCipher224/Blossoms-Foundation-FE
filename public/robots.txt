@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Once the site is deployed to a real domain, add a sitemap here, e.g.:
+# Sitemap: https://www.blossomsfoundation.org/sitemap.xml
+#
+# A sitemap.xml was not generated because the final production URL
+# is not yet known. Generate one at build/deploy time (many hosts,
+# e.g. Netlify/Vercel, offer plugins that do this automatically).
